@@ -159,8 +159,6 @@ print_char:
   sta PORTA
   rts
 
-
-
   .org $fffc
   .word reset
   .word $0000
